@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:login_form_bloc/src/blocs/validators.dart';
 
+// you could alternatively use: class Bloc extends Validators {}
 class Bloc extends Object with Validators {
   // Private StreamControllers
   final _emailController = StreamController<String>();
@@ -20,3 +21,5 @@ class Bloc extends Object with Validators {
     _passwordController.close();
   }
 }
+
+final bloc = Bloc();
