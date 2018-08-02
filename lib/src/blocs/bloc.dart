@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:login_form_bloc/src/blocs/validators.dart';
+import 'validators.dart';
 
 // you could alternatively use: class Bloc extends Validators {}
 class Bloc extends Object with Validators {
